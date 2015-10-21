@@ -1,0 +1,99 @@
+.portfolioimagesize {
+ width: 800px;
+    height: 480px;
+     padding-left: 100px;   
+ padding-right: 100px;
+}
+.portfolioimagesize2 {
+width: 300px;
+height: 500px;
+padding-left: 100px;   
+ padding-right: 100px;
+}
+
+.portfolioimagesizespecial1 {
+ width: 800px;
+ height: 400px;
+ padding-left: 100px;   
+ padding-right: 100px;
+}
+
+.portfolioimagesizespecial2 {
+ width: 800px;
+    height: 350px;
+     padding-left: 100px;   
+ padding-right: 100px;
+}
+
+.portfoliotext{
+ padding-top: 50px;
+ padding-bottom: 50px;
+ padding-left: 100px;   
+ padding-right: 100px;
+     text-align:left;
+
+
+}
+
+    @media (max-width: 768px){
+    .portfoliotext{ 
+        padding-top: 10px;
+    padding-bottom: 10px;
+ padding-left: 5px;   
+ padding-right: 5px;
+    }
+    }
+
+
+.headertext{
+ color:darkgray;
+ padding-bottom: 50px;
+}
+
+.subheadertext{
+color:black; font-weight: 500; font-size: 150%;
+}
+
+.imgHeight
+{
+  display: block;
+  width: auto;
+  height: auto;
+ padding-left: 100px;   
+ padding-right: 100px;
+}
+
+ @media (max-width: 768px){
+    .imgHeight{ 
+   display: block;
+  width: auto;
+  height: auto;
+padding-left: 5px;   
+ padding-right: 5px;
+    }
+ }
+
+ #brandimg {
+  display: block;
+    height:50px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+         
+}
+
+.logo{
+  display: inline-block;
+
+}
+
+.modal-body {
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 1200px;
+  }
+}
+
